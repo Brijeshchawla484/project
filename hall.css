@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+.header{
+    height: 100%;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(kjpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    height: 100px;
+    width: 123px;
+    margin: 18px;
+    padding: 0px;
+    transition: all 0.5s ease 0s;
+}
+.nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.nav ul li:hover::after{
+    width: 100%;
+    background-color: aqua;
+}
+.col{
+     width: 88%; 
+     /* display: flex; */
+     margin-top: 100px;
+     margin-left: 50px;
+    align-items: center;
+    color: white;
+}
+p{
+    width: 50%;
+    color:rgba(255, 255, 255, 0.559);
+    text-align: left;
+    text-transform: capitalize;
+}
+.mp{
+   
+   display: flex;
+}
+.scroll h3{
+    height: 20px;
+    width: 100vw;
+    text-align: center;
+    color: rgba(25, 0, 255, 0.51);
+    background-color:rgba(255, 0, 0, 0.23);
+
+}
+.im{
+     height:100% ;
+     width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(kjpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.scroll h1{
+            padding-top: 20%;
+}
+button{
+    padding:0 5px 0 5px;
+    margin-top: 20%;
+    margin-left: 50%;
+    border: 2px solid cyan;
+    border-radius: 15%;
+    background-color: transparent;
+    
+}
+button:hover{
+    color: black;
+    background-color: cyan;
+   
+}
+.jk h1{
+    color: white;
+}
