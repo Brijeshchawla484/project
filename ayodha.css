@@ -1,0 +1,259 @@
+
+*{
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+.main{
+    width: 100vw;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(ayodhya.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    height: 130px;
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: space-between;
+}
+.flex1{
+    padding: 60px;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 30px;  
+}
+.flex2{
+    padding: 60px;
+    text-transform: uppercase;  
+}
+li{
+    list-style: none;
+}
+.flex2 a{
+    text-decoration: none;
+    color:white;
+}
+.flex2 ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+
+.nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+    background-color: aqua;
+}
+.mcontent{
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-shadow: 2px 1px 5px black;
+}
+span{
+    color: cyan;
+    text-shadow: 2px 1px 5px black;
+}
+.flex1 a:hover{
+              color: orangered;
+}
+span:hover{
+    text-shadow: 4px 1px 10px black;
+}
+.mcontent2{
+    padding-top: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.nd{
+    height: 60vh;
+    width: 100%;
+}
+.rd{
+    height: 300px;
+    width: 40%;
+    margin-left: 400px;
+    background-color:white;
+    border-radius: 5%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px black;
+   position: absolute;
+   text-align: center;
+   
+}
+
+.re{
+    height: 200px;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 50px;
+    position: relative;
+    background-size: cover;
+}
+.bt{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.bt a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.em{
+    background-color: white;
+    color: black;
+}
+.me{
+    background-color: #00b894;
+    color: white;
+}
+.em:hover{
+    background-color:#00b894;
+    color: white;
+}
+.me:hover{
+    background-color:white;
+    color:black;
+}
+.bor{
+    margin-top: 20px;
+    height: 20px;
+    width: 100%;
+    margin-left: 15px;
+}
+.bor p{
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 20px;
+    
+}
+.bor::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    background:orangered;
+    height: 25px;
+}
+.second{
+    height: 70%;
+}
+.secimg{
+    height: 300px;
+    width: 40%;
+    margin-left: 400px;
+    background-color:white;
+    border-radius: 5%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px black;
+   position: absolute;
+   text-align: center;
+}
+.ax{
+    height: 200px;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 50px;
+    position: relative;
+}
+.plan{
+    margin-left: 45%;
+    height: 100px;
+}
+.plan button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.plan button:hover{
+    
+    background-color: #00b894;
+    color: white;
+}
+.also{
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size:40px ;
+    color: orangered;
+}
+.also a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #00b894;
+}
+.footer{
+    height: 200px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 80px;
+   
+}
+.object{
+    color: white;
+    padding-right: 50px;
+    text-transform: uppercase;
+   
+}
+.object2{
+    color: white;
+    text-transform: uppercase;
+}
+li{
+    padding-top: 10px;
+}
+.page button a{
+    text-decoration: none;
+    color: black;
+    padding: 16px; 
+}
+.page button{
+    height: 50px;
+    margin-right:25px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.page{
+    padding-top: 50px;
+    padding-left: 45.5%;      
+}
+
+.page button:hover{
+    background-color: #00b894;
+}
+
+
